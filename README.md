@@ -4,6 +4,8 @@ Demo del panel admin SaaS para integraciones logísticas (React + Vite + Tailwin
 
 Datos y login son **mock** — no hay backend real.
 
+**Demo en vivo:** [https://chalusk8.github.io/gmintegra/](https://chalusk8.github.io/gmintegra/)
+
 ## Demo login
 
 | Usuario     | Contraseña  |

@@ -4,5 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // GitHub Pages sirve en /gmintegra/; Vercel y local usan /
+  base: process.env.GITHUB_PAGES === 'true' ? '/gmintegra/' : '/',
   plugins: [tailwindcss(), react()],
 })

@@ -10,7 +10,7 @@ import ClientDetail from '../pages/ClientDetail'
 
 export function AppRoutes() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <AuthProvider>
         <Routes>
           <Route path="/login" element={<Login />} />
